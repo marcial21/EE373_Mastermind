@@ -1,0 +1,210 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Fri Dec 13 13:20:39 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000030    program   0x0016d6
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000030    0x001705      
+            5852 out of 66584 program addresses used, program memory utilization is 8%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BLK_CNT   0x000f70    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   CHECK1   0x000fcc    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   CHECK2   0x000fd6    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   CHECK3   0x000fe0    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   CHECK4   0x000fea    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  CHECKW1   0x001070    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  CHECKW2   0x001086    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  CHECKW3   0x00109c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  CHECKW4   0x0010b2    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                 CONTINUE   0x0010c8    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            CONTINUE_ONES   0x0010d4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            CONTINUE_TENS   0x0011f4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    DONE1   0x000ff0    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             DelayXCycles   0x001640    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                    FinRd   0x0016fa    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                GAME_LOST   0x00136e    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                GAME_OVER   0x00159a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                 GAME_WON   0x001484    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                GENERATOR   0x000156    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             GUESS_DIGITS   0x000d3c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+          INCREMENTCOUNT1   0x000f94    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+          INCREMENTCOUNT2   0x000fa2    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+          INCREMENTCOUNT3   0x000fb0    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+          INCREMENTCOUNT4   0x000fbe    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE1_2   0x001016    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE1_3   0x001034    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE1_4   0x001052    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE2_1   0x000ff8    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE2_3   0x00103e    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE2_4   0x00105c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE3_1   0x001002    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE3_2   0x001020    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE3_4   0x001066    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE4_1   0x00100c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE4_2   0x00102a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE4_3   0x001048    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  LCDBusy   0x0016fc    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                  LCDInit   0x00159e    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                LCDLine_1   0x001620    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                LCDLine_2   0x001628    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                  LCDRead   0x001690    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                 LCDWrite   0x001646    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+           LCDWriteNibble   0x001650    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                   LOOP1b   0x000160    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   LOOP2b   0x000166    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   LOOP3b   0x00016c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   LOOP4b   0x000172    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                     Main   0x000004    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  NextRow   0x001350    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               RESET_CNT1   0x000e54    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               RESET_CNT2   0x000ea4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               RESET_CNT3   0x000ee6    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               RESET_CNT4   0x000f28    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               SW2_PRESS1   0x000e7e    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW2_RELEASE1   0x000e84    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW2_RELEASE2   0x000ec6    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW2_RELEASE3   0x000f08    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW2_RELEASE4   0x000f4a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW3_RELEASE1   0x000e92    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW3_RELEASE2   0x000ed4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW3_RELEASE3   0x000f16    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW3_RELEASE4   0x000f58    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+              Score_Delay   0x001316    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            Select_Digit1   0x000e5c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            Select_Digit2   0x000eac    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            Select_Digit3   0x000eee    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            Select_Digit4   0x000f30    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                 ShowCode   0x00004c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                     TEMP   0x00136a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  Twiddle   0x00159a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                     WLoo   0x000040    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo1   0x0002a8    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   WLoo10   0x000cfc    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   WLoo11   0x00131e    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo2   0x0003cc    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo3   0x0004f0    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo4   0x000614    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo5   0x000748    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo6   0x00086c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo7   0x000990    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo8   0x000ab4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo9   0x000bd8    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   WT_CNT   0x000ff4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+              WT_RELEASE1   0x00018a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             _.org_1_018C   0x00018c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  d_write   0x001638    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                  i_write   0x001630    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                     lil1   0x0015ba    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                     lil2   0x0015d0    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     Main   0x000004    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                     WLoo   0x000040    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                 ShowCode   0x00004c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                GENERATOR   0x000156    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   LOOP1b   0x000160    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   LOOP2b   0x000166    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   LOOP3b   0x00016c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   LOOP4b   0x000172    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+              WT_RELEASE1   0x00018a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             _.org_1_018C   0x00018c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo1   0x0002a8    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo2   0x0003cc    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo3   0x0004f0    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo4   0x000614    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo5   0x000748    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo6   0x00086c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo7   0x000990    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo8   0x000ab4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    WLoo9   0x000bd8    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   WLoo10   0x000cfc    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             GUESS_DIGITS   0x000d3c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               RESET_CNT1   0x000e54    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            Select_Digit1   0x000e5c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               SW2_PRESS1   0x000e7e    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW2_RELEASE1   0x000e84    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW3_RELEASE1   0x000e92    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               RESET_CNT2   0x000ea4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            Select_Digit2   0x000eac    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW2_RELEASE2   0x000ec6    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW3_RELEASE2   0x000ed4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               RESET_CNT3   0x000ee6    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            Select_Digit3   0x000eee    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW2_RELEASE3   0x000f08    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW3_RELEASE3   0x000f16    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+               RESET_CNT4   0x000f28    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            Select_Digit4   0x000f30    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW2_RELEASE4   0x000f4a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+             SW3_RELEASE4   0x000f58    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  BLK_CNT   0x000f70    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+          INCREMENTCOUNT1   0x000f94    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+          INCREMENTCOUNT2   0x000fa2    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+          INCREMENTCOUNT3   0x000fb0    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+          INCREMENTCOUNT4   0x000fbe    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   CHECK1   0x000fcc    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   CHECK2   0x000fd6    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   CHECK3   0x000fe0    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   CHECK4   0x000fea    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                    DONE1   0x000ff0    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   WT_CNT   0x000ff4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE2_1   0x000ff8    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE3_1   0x001002    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE4_1   0x00100c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE1_2   0x001016    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE3_2   0x001020    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE4_2   0x00102a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE1_3   0x001034    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE2_3   0x00103e    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE4_3   0x001048    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE1_4   0x001052    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE2_4   0x00105c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+       INCREMENT_WHITE3_4   0x001066    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  CHECKW1   0x001070    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  CHECKW2   0x001086    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  CHECKW3   0x00109c    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  CHECKW4   0x0010b2    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                 CONTINUE   0x0010c8    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            CONTINUE_ONES   0x0010d4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+            CONTINUE_TENS   0x0011f4    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+              Score_Delay   0x001316    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                   WLoo11   0x00131e    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  NextRow   0x001350    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                     TEMP   0x00136a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                GAME_LOST   0x00136e    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                 GAME_WON   0x001484    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                GAME_OVER   0x00159a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  Twiddle   0x00159a    program     static P:\Embedded Systems\Mastermind.X\Mastermind.asm
+                  LCDInit   0x00159e    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                     lil1   0x0015ba    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                     lil2   0x0015d0    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                LCDLine_1   0x001620    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                LCDLine_2   0x001628    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                  i_write   0x001630    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                  d_write   0x001638    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+             DelayXCycles   0x001640    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                 LCDWrite   0x001646    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+           LCDWriteNibble   0x001650    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                  LCDRead   0x001690    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                    FinRd   0x0016fa    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+                  LCDBusy   0x0016fc    program     static P:\Embedded Systems\Mastermind.X\LCD_p18LCD_Subs_New.asm
+
+
